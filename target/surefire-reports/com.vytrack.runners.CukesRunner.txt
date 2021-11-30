@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 34.557 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Driver user(Account types)  Time elapsed: 12.467 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Calendar Events - Activities]> but was:<[Dashboard]>
+
+Sales manager user(Account types)  Time elapsed: 11.784 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Accounts - CustomerS]> but was:<[Dashboard]>
+
+Store manager user(Account types)  Time elapsed: 9.386 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Contacts - Customers]> but was:<[Dashboard]>
+
